@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{96B05199-4D03-7AB4-E146-0086FF439FC3}</ProjectGuid>
+    <ProjectGuid>{16303430-8DBE-6328-626E-E4283D97EBAD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,9 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\introducirName.cs" />
+     <Compile Include="Assets\ComparteDatos.cs" />
      <Compile Include="Assets\llamarEscenas.cs" />
-     <Compile Include="Assets\miNombre.cs" />
+     <Compile Include="Assets\Nombre.cs" />
      <Compile Include="Assets\rotarEscenario.cs" />
      <Compile Include="Assets\Salir.cs" />
      <Compile Include="Assets\url.cs" />
