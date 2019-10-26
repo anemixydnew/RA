@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/prueba VU.unity
+- path: Assets/inicio.unity
   isLoaded: 1
   isActive: 1
