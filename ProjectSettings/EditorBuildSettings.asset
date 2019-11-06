@@ -14,3 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Salir.unity
     guid: 7032ef02238c5ce4984e4fe456d4a2c5
+  - enabled: 1
+    path: Assets/pruebaChicoEmi.unity
+    guid: 9a9e13fbca5d82044992d7240b29b954
+  - enabled: 1
+    path: Assets/ChicoEmi.unity
+    guid: 5861be64c3c483f48b767b230ada0607
+  - enabled: 1
+    path: Assets/ChicaEmi.unity
+    guid: a539dd40a98c0214496a2aed17b95661

@@ -140,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba0aa01bed377443a9b6439d64ed374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IngresarNombre: {fileID: 1722294451}
   SacarNombre: {fileID: 1132366872}
+  rutaArchivo: 
 --- !u!4 &29577142
 Transform:
   m_ObjectHideFlags: 0
@@ -342,6 +342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7428fecb797554eaf5cecdc99bc12a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pNombreEscena: prueba VU
+  pNombreEscena2: pruebaChicoEmi
+  pNombreEscena3: ChicaEmi
+  pNombreEscena4: ChicoEmi
 --- !u!4 &503383881
 Transform:
   m_ObjectHideFlags: 0
@@ -365,7 +369,7 @@ GameObject:
   - component: {fileID: 762985039}
   - component: {fileID: 762985038}
   m_Layer: 0
-  m_Name: Comparte
+  m_Name: Comparte2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,6 +387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IngresarNombre: {fileID: 1722294451}
+  rutaArchivo: 
+  SacarNombre: {fileID: 1132366872}
 --- !u!4 &762985039
 Transform:
   m_ObjectHideFlags: 0
@@ -421,14 +427,14 @@ RectTransform:
   m_GameObject: {fileID: 826484581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -7}
-  m_LocalScale: {x: 3.164284, y: 0.93437153, z: 0.33381718}
+  m_LocalScale: {x: 6.989797, y: 2.0639946, z: 0.73739076}
   m_Children: []
   m_Father: {fileID: 1228254989}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 108}
+  m_AnchoredPosition: {x: 0, y: 297}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826484583
@@ -551,6 +557,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 762985038}
+        m_MethodName: start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &854031424
@@ -610,8 +627,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 888215366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.29999995, y: 0.25711876, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2.2185}
+  m_LocalScale: {x: 0.63276756, y: 0.54232144, z: 2.1092255}
   m_Children:
   - {fileID: 854031422}
   - {fileID: 2146648578}
@@ -621,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -44}
+  m_AnchoredPosition: {x: 0, y: -66}
   m_SizeDelta: {x: 1100, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888215368
@@ -681,7 +698,7 @@ Transform:
   m_GameObject: {fileID: 902406772}
   m_LocalRotation: {x: -0.15399987, y: 0.0065176464, z: -0.026982423, w: 0.9876809}
   m_LocalPosition: {x: -0.16, y: 0.71, z: 7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.050584, y: 1.0505843, z: 1.0505843}
   m_Children:
   - {fileID: 126243196}
   - {fileID: 1682939363}
@@ -793,14 +810,14 @@ RectTransform:
   m_GameObject: {fileID: 1132366870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.2254863, y: 3.2818758, z: 3.2818758}
   m_Children: []
   m_Father: {fileID: 1228254989}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36, y: -60}
+  m_AnchoredPosition: {x: 12, y: -96}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132366872
@@ -829,13 +846,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: El nombre
+  m_Text: 
 --- !u!222 &1132366873
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1936,13 +1953,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 503383880}
         m_MethodName: CargarNivel
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: prueba VU
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

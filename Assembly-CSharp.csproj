@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\ComparteDatos.cs" />
      <Compile Include="Assets\llamarEscenas.cs" />
+     <Compile Include="Assets\llamarUnaEscena.cs" />
      <Compile Include="Assets\Nombre.cs" />
      <Compile Include="Assets\rotarEscenario.cs" />
      <Compile Include="Assets\Salir.cs" />
