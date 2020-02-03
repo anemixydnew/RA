@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChicaEmi.unity
+- path: Assets/ElejirCMil.unity
   isLoaded: 1
   isActive: 1

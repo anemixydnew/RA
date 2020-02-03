@@ -9,6 +9,27 @@ EditorBuildSettings:
     path: Assets/inicio.unity
     guid: 15e7aa581f542524da787f58c9b2128b
   - enabled: 1
+    path: Assets/ElejirPersonaje.unity
+    guid: 686e93235960a0c4b9e39a4d54017bdc
+  - enabled: 1
+    path: Assets/ElejirGobo.unity
+    guid: 2d2cac68330ee6646ad6c76fc58b67b3
+  - enabled: 1
+    path: Assets/ElejirTera.unity
+    guid: ba5c40a447dce274f9835913b3dd1061
+  - enabled: 1
+    path: Assets/ElejirCMil.unity
+    guid: 3e475d9ea1bf05143a417e37e49a5f69
+  - enabled: 1
+    path: Assets/ElejirCUni.unity
+    guid: 835799f5cb582a04ba61540076514c20
+  - enabled: 1
+    path: Assets/ElejirHMil.unity
+    guid: c87ee9a29ff6210488597498d33d416d
+  - enabled: 1
+    path: Assets/ElejirHUni.unity
+    guid: b379a4c20766f0c4088e45681ff57d49
+  - enabled: 1
     path: Assets/prueba VU.unity
     guid: bdcbad6c3d9aecf40b908a34cc28124b
   - enabled: 1
@@ -23,3 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ChicaEmi.unity
     guid: a539dd40a98c0214496a2aed17b95661
+  - enabled: 1
+    path: Assets/gatoScratch.unity
+    guid: 30c2434e77f0e3542ad4b73974df849a
